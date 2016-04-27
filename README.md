@@ -32,7 +32,9 @@ SegmentedButtonGroup is like iOS Segmented Controls, you can binding SelectedInd
     				<fe:SegmentedButton Title="Button 3"/>
     			</fe:SegmentedButtonGroup.SegmentedButtons>
     		</fe:SegmentedButtonGroup>
-    		
+
+###### This is the component, works on iOS, Android and UWP soon.
+![](https://raw.githubusercontent.com/XAM-Consulting/FreshEssentialsSample/master/SegmentedButtonGroupiOS.png)
 
 ### Converters
 
