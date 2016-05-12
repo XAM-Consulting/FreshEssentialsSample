@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "FreshEssentials": "1.0.0",
+    "FreshEssentials": "2.0.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "Xamarin.Forms": "2.1.0.6529"
   },

@@ -3,12 +3,14 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -1812,12 +1814,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -3474,12 +3478,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -5100,12 +5106,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -6768,12 +6776,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -8394,12 +8404,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -10062,12 +10074,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "FreshEssentials/1.0.0": {
+      "FreshEssentials/2.0.1": {
         "compile": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll": {}
+          "lib/uap10.0/FreshEssentials.UWP.dll": {},
+          "lib/uap10.0/FreshEssentials.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -11689,22 +11703,30 @@
     }
   },
   "libraries": {
-    "FreshEssentials/1.0.0": {
-      "sha512": "g9kB3gtUNldM9pKtsa8tFyNajgedR/gRRuGssB9ThJ1FgRY/9x/o+xkvEOe39pDI7S65yXJJ2mQ59PgjafzykQ==",
+    "FreshEssentials/2.0.1": {
+      "sha512": "yPf0ZiyaIrhBfyqZBMM4edr9v+1aIajSgSqgwOXSxGgVtJPj5tEJZWGIxNVHXkD/S/dUvSjUa/DbXs/iQ8gmvw==",
       "type": "package",
       "files": [
-        "FreshEssentials.1.0.0.nupkg.sha512",
+        "FreshEssentials.2.0.1.nupkg.sha512",
         "FreshEssentials.nuspec",
         "lib/MonoAndroid10/FreshEssentials.Droid.dll",
-        "lib/MonoAndroid10/FreshEssentials.Droid.dll.mdb",
+        "lib/MonoAndroid10/FreshEssentials.Droid.pdb",
         "lib/MonoAndroid10/FreshEssentials.dll",
-        "lib/MonoAndroid10/FreshEssentials.dll.mdb",
+        "lib/MonoAndroid10/FreshEssentials.pdb",
         "lib/Xamarin.iOS10/FreshEssentials.dll",
         "lib/Xamarin.iOS10/FreshEssentials.dll.mdb",
         "lib/Xamarin.iOS10/FreshEssentials.iOS.dll",
         "lib/Xamarin.iOS10/FreshEssentials.iOS.dll.mdb",
+        "lib/Xamarin.iOS10/FreshEssentials.iOS.pdb",
+        "lib/Xamarin.iOS10/FreshEssentials.pdb",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll.mdb"
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.dll.mdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/FreshEssentials.pdb",
+        "lib/uap10.0/FreshEssentials.UWP.dll",
+        "lib/uap10.0/FreshEssentials.UWP.pdb",
+        "lib/uap10.0/FreshEssentials.UWP.pri",
+        "lib/uap10.0/FreshEssentials.dll",
+        "lib/uap10.0/FreshEssentials.pdb"
       ]
     },
     "Microsoft.CSharp/4.0.0": {
@@ -11940,11 +11962,13 @@
       ]
     },
     "Microsoft.NETCore.Windows.ApiSets-x64/1.0.0": {
-      "sha512": "LKLx7wjo2ajI735WG8JHMWkn5DF97SFSmkIWHni87QmMC4LGATWKN71d1PpEy0pUV6GWo+Hdh3gMtt7u+EbBzw==",
-      "type": "package",
+      "sha512": "NC+dpFMdhujz2sWAdJ8EmBk07p1zOlNi0FCCnZEbzftABpw9xZ99EMP/bUJrPTgCxHfzJAiuLPOtAauzVINk0w==",
+      "type": "Package",
       "files": [
-        "Microsoft.NETCore.Windows.ApiSets-x64.1.0.0.nupkg.sha512",
         "Microsoft.NETCore.Windows.ApiSets-x64.nuspec",
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "package/services/metadata/core-properties/b25894a2a9234c329a98dc84006b2292.psmdcp",
         "runtimes/win10-x64/native/_._",
         "runtimes/win7-x64/native/API-MS-Win-Base-Util-L1-1-0.dll",
         "runtimes/win7-x64/native/API-MS-Win-Core-Kernel32-Private-L1-1-0.dll",
@@ -14844,11 +14868,12 @@
       ]
     },
     "Xamarin.Forms/2.1.0.6529": {
-      "sha512": "TJkPXQk1HyHqmMEuFn+3DSEb/9yQKND45Qwt8Jz8BHI1Kh4nAMLnXlgp/akPmyXDdqCcK1m7E9mSpe2kA6Od+g==",
-      "type": "package",
+      "sha512": "lHvfEGdk9P8PtPUDH5wAR0L8ZSbov3LwWDvN1mx2UzYNd1zm4WwAHyK2h5XknE90KA+6JgyIuTTfDvxgz0rlLA==",
+      "type": "Package",
       "files": [
-        "Xamarin.Forms.2.1.0.6529.nupkg.sha512",
         "Xamarin.Forms.nuspec",
+        "[Content_Types].xml",
+        "_rels/.rels",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/ICSharpCode.Decompiler.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/ICSharpCode.NRefactory.CSharp.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/ICSharpCode.NRefactory.Cecil.dll",
@@ -14862,8 +14887,6 @@
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Core.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.targets",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
@@ -14871,32 +14894,24 @@
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
-        "lib/MonoTouch10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoTouch10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoTouch10/Xamarin.Forms.Core.dll",
         "lib/MonoTouch10/Xamarin.Forms.Core.xml",
         "lib/MonoTouch10/Xamarin.Forms.Platform.dll",
         "lib/MonoTouch10/Xamarin.Forms.Platform.iOS.Classic.dll",
         "lib/MonoTouch10/Xamarin.Forms.Xaml.dll",
         "lib/MonoTouch10/Xamarin.Forms.Xaml.xml",
-        "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/WP80/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/WP80/Xamarin.Forms.Core.dll",
         "lib/WP80/Xamarin.Forms.Core.xml",
         "lib/WP80/Xamarin.Forms.Platform.WP8.dll",
         "lib/WP80/Xamarin.Forms.Platform.dll",
         "lib/WP80/Xamarin.Forms.Xaml.dll",
         "lib/WP80/Xamarin.Forms.Xaml.xml",
-        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Core.dll",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Platform.dll",
@@ -14914,8 +14929,6 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "lib/win81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/win81/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/win81/Xamarin.Forms.Core.dll",
         "lib/win81/Xamarin.Forms.Core.xml",
         "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.dll",
@@ -14932,8 +14945,6 @@
         "lib/win81/Xamarin.Forms.Platform.dll",
         "lib/win81/Xamarin.Forms.Xaml.dll",
         "lib/win81/Xamarin.Forms.Xaml.xml",
-        "lib/wpa81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/wpa81/Xamarin.Forms.Core.dll",
         "lib/wpa81/Xamarin.Forms.Core.xml",
         "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.dll",
@@ -14951,6 +14962,7 @@
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
+        "package/services/metadata/core-properties/97610f62c25d40b9ab8a50c19c33b4bf.psmdcp",
         "tools/Xamarin.Forms.Core.Design.dll",
         "tools/Xamarin.Forms.Xaml.Design.dll",
         "tools/init.ps1"
@@ -14959,7 +14971,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "FreshEssentials >= 1.0.0",
+      "FreshEssentials >= 2.0.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
       "Xamarin.Forms >= 2.1.0.6529"
     ],
