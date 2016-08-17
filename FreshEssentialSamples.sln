@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreshEssentialSamples", "FreshEssentialSamples\FreshEssentialSamples.csproj", "{62BFE99F-B28D-409F-8A6E-989C122C40CB}"
 EndProject
@@ -107,6 +107,8 @@ Global
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|ARM.Deploy.0 = Debug|ARM
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|iPhone.ActiveCfg = Debug|x86
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
+		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|iPhoneSimulator.Build.0 = Debug|x86
+		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|iPhoneSimulator.Deploy.0 = Debug|x86
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|x64.ActiveCfg = Debug|x64
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|x64.Build.0 = Debug|x64
 		{703104F1-651B-4AF7-BBC9-010F49F4F0E9}.Debug|x64.Deploy.0 = Debug|x64
