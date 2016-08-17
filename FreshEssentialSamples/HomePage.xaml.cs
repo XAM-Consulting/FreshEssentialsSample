@@ -54,6 +54,11 @@ namespace FreshEssentialSamples
                             tapPage.BindingContext = new BindableViewModel();
                             Navigation.PushAsync(tapPage);
                         }
+                        else if (pageName == "AutoGrid")
+                        {
+                            var autoGridPage = new AutoGridSample();
+                            Navigation.PushAsync(autoGridPage);
+                        }
 
                     });
             }

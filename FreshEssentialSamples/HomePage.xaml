@@ -14,6 +14,7 @@
 
             <Button Text="TappedGestureAttached" Command="{Binding OpenPage}" CommandParameter="TappedGesture"  ></Button>
 
+			<Button Text="AutoGrid" Command="{Binding OpenPage}" CommandParameter="AutoGrid"  ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

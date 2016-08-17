@@ -3,7 +3,7 @@
 	xmlns:fe="clr-namespace:FreshEssentials;assembly=FreshEssentials">
     <ContentPage.Content>
     	<StackLayout Spacing="10">
-    		<fe:SegmentedButtonGroup OnColor="Blue" OffColor="White" SelectedIndex="{Binding SelectIndex, Mode=TwoWay}">
+    		<fe:SegmentedButtonGroup OnColor="Blue" OffColor="White" SelectedIndex="{Binding SelectIndex, Mode=TwoWay}" CornerRadius="5">
     			<fe:SegmentedButtonGroup.SegmentedButtons>
     				<fe:SegmentedButton Title="Button 1"/>
     				<fe:SegmentedButton Title="Button 2"/>
