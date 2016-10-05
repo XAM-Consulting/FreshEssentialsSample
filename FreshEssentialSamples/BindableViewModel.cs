@@ -5,11 +5,14 @@ using System.ComponentModel;
 
 namespace FreshEssentialSamples
 {
-    public class BindableViewModel  : INotifyPropertyChanged
+    public class BindableViewModel : INotifyPropertyChanged
     {
+        public List<Car> CarList { get; set; } //displayed list of cars
         public List<Car> MyCars { get; set; }
+        public List<Car> FancyCars { get; set; }
 
         public Car SelectedCar { get; set; }
+        private bool IsMyCars = true;
 
         public BindableViewModel()
         {
@@ -31,12 +34,33 @@ namespace FreshEssentialSamples
                     Model = "Civic"
                 },
             };
+
+            FancyCars = new List<Car>
+            {
+                new Car
+                {
+                    Make = "Ford",
+                    Model = "Mustang"
+                },
+                new Car
+                {
+                    Make = "Lamborghini",
+                    Model = "Marchelargo"
+                },
+                new Car
+                {
+                    Make = "Ferrari",
+                    Model = "F1"
+                },
+            };
+
+            //CarList = MyCars;
         }
 
         int _index;
 
         public int SelectIndex
-        { 
+        {
             get
             {
                 return _index;
@@ -51,7 +75,7 @@ namespace FreshEssentialSamples
         string _displayText;
 
         public string DisplayText
-        { 
+        {
             get
             {
                 return _displayText;
@@ -61,7 +85,7 @@ namespace FreshEssentialSamples
                 _displayText = value;
                 OnPropertyChanged("DisplayText");
             }
-                
+
         }
 
         bool _showButton = true;
@@ -71,7 +95,8 @@ namespace FreshEssentialSamples
             get
             {
                 return _showButton;
-            }set
+            }
+            set
             {
                 _showButton = value;
                 OnPropertyChanged("ShowButton");
@@ -109,7 +134,7 @@ namespace FreshEssentialSamples
         public Command ImageTappedCommnad
         {
             get
-            { 
+            {
                 return new Command(() =>
                     {
                         if (_clickTimes == 0)
@@ -134,6 +159,30 @@ namespace FreshEssentialSamples
                         }
                         _clickTimes++;
                     });
+            }
+        }
+
+        public Command ChangeSource
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    if (IsMyCars == true)
+                    {
+                        SelectedCar = null;
+                        //OnPropertyChanged(nameof(SelectedCar));
+                        CarList = FancyCars;
+                        OnPropertyChanged(nameof(CarList));
+                        IsMyCars = false;
+                    }
+                    else {    
+                        SelectedCar = null;
+                        CarList = MyCars;
+                        OnPropertyChanged(nameof(CarList));
+                        IsMyCars = true;
+                    }
+                });
             }
         }
 
