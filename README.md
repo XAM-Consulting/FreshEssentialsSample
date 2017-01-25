@@ -32,13 +32,19 @@ AdvancedFrame inherits from Frame, you can set corner type via Corners(There are
 
 SegmentedButtonGroup is like iOS Segmented Controls, you can binding SelectedIndex for it
 
-    		<fe:SegmentedButtonGroup OnColor="Blue" OffColor="White" SelectedIndex="{Binding SelectIndex, Mode=TwoWay}">
-    			<fe:SegmentedButtonGroup.SegmentedButtons>
-    				<fe:SegmentedButton Title="Button 1"/>
-    				<fe:SegmentedButton Title="Button 2"/>
-    				<fe:SegmentedButton Title="Button 3"/>
-    			</fe:SegmentedButtonGroup.SegmentedButtons>
-    		</fe:SegmentedButtonGroup>
+	<fe:SegmentedButtonGroup OnColor="Blue" OffColor="White" SelectedIndex="{Binding SelectIndex, Mode=TwoWay}">
+		<fe:SegmentedButtonGroup.LabelStyle>
+			<Style TargetType="Label">
+			    <Setter Property="FontSize" Value="12" />
+				<Setter Property="FontAttributes" Value="Bold" />
+			</Style>
+		</fe:SegmentedButtonGroup.LabelStyle>
+		<fe:SegmentedButtonGroup.SegmentedButtons>
+			<fe:SegmentedButton Title="Button 1"/>
+			<fe:SegmentedButton Title="Button 2"/>
+			<fe:SegmentedButton Title="Button 3"/>
+		</fe:SegmentedButtonGroup.SegmentedButtons>
+	</fe:SegmentedButtonGroup>
 
 ###### This is the component, works on iOS, Android and UWP soon.
 ![](https://raw.githubusercontent.com/XAM-Consulting/FreshEssentialsSample/master/SegmentedButtonGroupiOS.png)
